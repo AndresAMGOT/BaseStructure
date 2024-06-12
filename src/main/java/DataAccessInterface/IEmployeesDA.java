@@ -1,7 +1,7 @@
  
 package DataAccessInterface;
 
-import EntitiesInterface.IRequestEmployeesDTO;
+import Entities.RequestEmployeesDTO;
 
 /**
  * FI-001
@@ -15,5 +15,5 @@ public interface IEmployeesDA {
     * Metho to handle the save information of employee table in data base.
     * @param RequestEmployees Here came the necesary information to save employee information like id, name and city
     */
-    void Get(IRequestEmployeesDTO RequestEmployees);
+    void Save(RequestEmployeesDTO RequestEmployees);
 }
